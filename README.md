@@ -4,6 +4,8 @@
 
 Docker image for Riemann network monitoring system version 0.2.11.
 
+This image will target the `riemann.config` file in `/etc/riemann`, and target any accessory configurations via `/etc/riemann/conf.d/`.
+
 ### Docker CLI
 ```bash
 docker pull neetjn/riemann:latest
